@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Jumpstart-Intro/static/css/main.f742cdaa.chunk.css",
+    "main.css": "/Jumpstart-Intro/static/css/main.4f8eef8a.chunk.css",
     "main.js": "/Jumpstart-Intro/static/js/main.90e72f44.chunk.js",
     "main.js.map": "/Jumpstart-Intro/static/js/main.90e72f44.chunk.js.map",
     "runtime-main.js": "/Jumpstart-Intro/static/js/runtime-main.535cf9fa.js",
@@ -8,14 +8,14 @@
     "static/js/2.0a3f623d.chunk.js": "/Jumpstart-Intro/static/js/2.0a3f623d.chunk.js",
     "static/js/2.0a3f623d.chunk.js.map": "/Jumpstart-Intro/static/js/2.0a3f623d.chunk.js.map",
     "index.html": "/Jumpstart-Intro/index.html",
-    "static/css/main.f742cdaa.chunk.css.map": "/Jumpstart-Intro/static/css/main.f742cdaa.chunk.css.map",
+    "static/css/main.4f8eef8a.chunk.css.map": "/Jumpstart-Intro/static/css/main.4f8eef8a.chunk.css.map",
     "static/js/2.0a3f623d.chunk.js.LICENSE.txt": "/Jumpstart-Intro/static/js/2.0a3f623d.chunk.js.LICENSE.txt",
-    "static/media/styles.scss": "/Jumpstart-Intro/static/media/icomoon.e59c9d97.svg"
+    "static/media/styles.scss": "/Jumpstart-Intro/static/media/icomoon.bb9e1213.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.535cf9fa.js",
     "static/js/2.0a3f623d.chunk.js",
-    "static/css/main.f742cdaa.chunk.css",
+    "static/css/main.4f8eef8a.chunk.css",
     "static/js/main.90e72f44.chunk.js"
   ]
 }
