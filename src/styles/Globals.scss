@@ -1,0 +1,49 @@
+// mixins
+@mixin flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin absolute-positions($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+
+//---------  variables
+// colors
+$primary-color: #FEDEDD;
+$secondary-color: #8C14FC;
+$secondary-color-2: #B05EFD;
+$grayscale-1: #ffffff;
+$grayscale-2: #F1F4F6;
+$grayscale-3: #E5E5E5;
+$grayscale-4: #343D4880;
+$grayscale-5: #343D48;
+
+$danger-color: #EB5757;
+
+// font
+$primary-font: Avenir Helvetica, sans-serif;
+
+
+//---------- global styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  background-color: $grayscale-2;
+  font-family: $primary-font;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: $grayscale-5;
+}

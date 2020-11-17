@@ -1,0 +1,59 @@
+.card-menu {
+  position: relative;
+  width: 148px;
+  height: 110px;
+  background: $grayscale-1;
+  border: 1px solid $grayscale-2;
+  box-shadow: 0px 1px 50px rgba(50, 50, 93, 0.07);
+  border-radius: 5px;
+  &-options {
+    list-style: none;
+    padding: 9px 0;
+    li {
+      width: 148px;
+      height: 30px;
+      p {
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+      }
+    }
+    li:nth-child(1) {
+      p {
+        @include absolute-positions(9px, 14px, 71px, 45px);
+      }
+      & i {
+        @include absolute-positions(15px, unset, unset, 16px);
+      }
+    }
+    li:nth-child(2) {
+      p {
+        @include absolute-positions(39px, 14px, 41px, 45px);
+      }
+      & i {
+        @include absolute-positions(46px, unset, unset, 13px);
+      }
+    }
+    li:nth-child(3) {
+      color: $danger-color;
+      p {
+        @include absolute-positions(69px, 14px, 11px, 45px);
+      }
+      & i {
+        color: $danger-color !important;
+        @include absolute-positions(76px, unset, unset, 13px);
+      }
+      &:hover {
+        background-color: $danger-color;
+      }
+    }
+    li:hover {
+      background-color: $secondary-color-2;
+      color: $grayscale-1;
+      & i {
+        color: $grayscale-1 !important;
+      }
+    }
+  }
+}
